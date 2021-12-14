@@ -2,10 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chakra UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Snek - Cooming Soon" />
+    <meta name="author" content="Snek" />
+    <meta name="robots" content="all" />
+    <title>Cooming Soon - Snek</title>
+    <link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1629862837/magicmouse/magic-mouse-1.2.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@700&display=swap');
+
+        body {
+            background-color: #171921 !important;
+        }
+
+        body #magicPointer {
+            background: #60b232;
+        }
+
+        body #magicMouseCursor {
+            border-color: #dcdde1;
+        }
+    </style>
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1629862837/magicmouse/magic_mouse-1.2.js"></script>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 </head>
 <body>
     <div id="root"></div>
     <script src="./app.bundle.js"></script>
+    <script type="text/javascript">
+        //? Disabled due to extreme resource consumption
+/*        magicMouse({
+            "cursorOuter": "circle-basic",
+            "hoverEffect": "pointer-blur",
+            "hoverItemMove": false,
+            "defaultCursor": false,
+            "outerWidth": 30,
+            "outerHeight": 30
+        })*/
+    </script>
 </body>
 </html>
