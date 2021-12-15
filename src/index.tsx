@@ -155,6 +155,7 @@ const App = () => {
                                     as='h3'
                                     style={{fontFamily: 'montserrat'}}
                                     mt='15px'
+                                    color='#fff'
                                 >
                                     Coming soon
                                 </Heading>
