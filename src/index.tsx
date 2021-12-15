@@ -134,7 +134,6 @@ const App = () => {
                         <Center w='full'>
                             <Box>
                                 <Image
-                                    position='relative'
                                     src={brand}
                                     boxSize='150px'
                                     marginLeft='50%'
@@ -152,7 +151,8 @@ const App = () => {
                                     filter='drop-shadow( 0px 0px 10px rgba(255, 255, 255, .2));'
                                 />
                                 <Heading
-                                    as='h3'
+                                    as='h2'
+                                    fontSize='5xl'
                                     style={{fontFamily: 'montserrat'}}
                                     mt='15px'
                                     color='#fff'
@@ -171,6 +171,7 @@ const App = () => {
                         transition='all .3s ease'
                         opacity='0.3'
                         fontFamily='Alata'
+                        fontSize='lg'
                         _hover={{
                             opacity: 1,
                             transform: 'translateX(-50%) scale(1.05)'
