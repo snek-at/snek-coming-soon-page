@@ -175,6 +175,7 @@ const App = () => {
                             opacity: 1,
                             transform: 'translateX(-50%) scale(1.05)'
                         }}
+                        color='#fff'
                         css={`
                             &::after {
                                 content: '';
